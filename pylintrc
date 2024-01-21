@@ -1,4 +1,5 @@
 [MESSAGES CONTROL]
 disable=too-many-ancestors,
+        too-many-argument,
         too-many-instance-attributes,
         unnecessary-pass
