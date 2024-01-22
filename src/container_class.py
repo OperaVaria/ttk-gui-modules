@@ -12,7 +12,7 @@ from platform import system
 
 
 class Container(ttk.Frame):
-    """Tkk GUI container as a Python class.
+    """Ttk GUI container as a Python class.
        General purpose, multi-platform, optimized for 1080p resolution."""
     def __init__(self, window, width, height, fill, expand, background,
                  foreground, textcolor, font):
