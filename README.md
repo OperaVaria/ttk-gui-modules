@@ -1,7 +1,7 @@
 # Python Tkinter.ttk modules for object-oriented programming (OOP) projects
 
 This release contains pre-made, object-oriented GUI modules that one can utilize in their
-Python app. The modules were build using the ttk toolset, and are optimized for multiplatform
+Python app. The modules were build using the TTk toolset, and are optimized for multiplatform
 (Windows, Linux, Mac), general use, on a 1080p resolution screen.
 
 Tested with Python 3.12, and Tcl/Tk 8.6.  

@@ -20,16 +20,16 @@ class Container(ttk.Frame):
         super().__init__(window)
         self.cont = ttk.Frame(window, width=width, height=height)
         self.cont.pack(fill=fill, expand=expand)
-        # Set ttk style:
+        # Set TTk style:
         self.style = ttk.Style(self)
-        # Ttk theme selection for different OSs:
+        # TTk theme selection for different OSs:
         if system() == "Windows":
             self.style.theme_use("vista")
         elif system() == "Linux":
             self.style.theme_use("clam")
         elif system() == "Darwin":
             self.style.theme_use("aqua")
-        # Ttk style configuration for application widgets (1080p):
+        # TTk style configuration for application widgets (1080p):
         self.style.configure("TFrame", background=background)
         self.style.configure("TLabel", background=background, foreground=foreground,
                              font=(font, 18))
